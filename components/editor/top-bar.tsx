@@ -3,7 +3,11 @@ import Link from 'next/link'
 import Button from '../ui/button'
 import { ArrowDownTrayIcon, BookmarkSquareIcon } from '@heroicons/react/24/outline'
 
-const TopBar = () => {
+interface IProps {
+    exportHtml: () => void
+}
+
+const TopBar: React.FC<IProps> = (props) => {
   return (
     <header>
         <div className='border-b flex h-[60px] items-center justify-between md:h-[80px] px-6'>
@@ -20,7 +24,7 @@ const TopBar = () => {
                     <BookmarkSquareIcon className='h-6 text-white mr-2'/>
                     Save
                 </Button>
-                <Button color='blue' className='rounded-md flex items-center font-medium'>
+                <Button color='blue' className='rounded-md flex items-center font-medium' onClick={() => props.exportHtml()}>
                     <ArrowDownTrayIcon className='h-6 text-white mr-2'/>
                     Export
                 </Button>

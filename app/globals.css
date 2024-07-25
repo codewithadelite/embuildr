@@ -29,6 +29,14 @@
 }
 
 .menu-icon{
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+}
+
+.hhFmBk .blockbuilder-branding{
+  display: none !important;
+}
+
+.hhFmBk .blockbuilder-branding::after{
+  content: "";
 }

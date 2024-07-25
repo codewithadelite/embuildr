@@ -3,13 +3,13 @@ import Image from 'next/image'
 import Button from '../ui/button'
 import Link from 'next/link'
 import {
-  HeartIcon,
+  Squares2X2Icon,
 } from "@heroicons/react/24/outline";
 
 const Hero = () => {
   return (
     <div className="relative mx-auto flex max-w-3xl flex-col justify-center">
-          <div className="max-w-[725px] text-center lg:mt-40 md:mt-40 sm:mt-8">
+          <div className="max-w-[725px] text-center">
             <div className="flex items-center justify-center mb-8">
               <Image
                 alt="Embuildr Email Logo"
@@ -32,13 +32,13 @@ const Hero = () => {
 
           <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-4 ">
             <Link href='editor/'>
-                <Button color='blue' className='px-12 rounded-md font-medium'>
+                <Button color='blue' className='px-14 py-3 rounded-md font-medium'>
                     Start design
                 </Button>
             </Link>
-            <Button color='blue' className='px-12 rounded-md flex items-center font-medium border border-gray-400 bg-black'>
-                <HeartIcon className='h-6 text-white mr-2'/>
-                Sponsor
+            <Button color='blue' className='px-14 py-3 rounded-md flex items-center font-medium border border-gray-400 bg-black'>
+                <Squares2X2Icon className='h-6 text-white mr-2'/>
+                Templates
             </Button>
           </div>
         </div>

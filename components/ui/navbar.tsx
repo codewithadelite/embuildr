@@ -5,7 +5,7 @@ import Menu from './menu'
 const Navbar = () => {
   return (
     <header
-    className="flex h-[80px] items-center justify-between md:h-[100px]"
+    className="flex h-[80px] py-4 items-center justify-between md:h-[100px]"
 >
     <div className="flex items-center gap-3">
       <Link href="/">
