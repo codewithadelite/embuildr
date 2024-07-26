@@ -25,7 +25,7 @@ const Hero = () => {
             </h1>
             <div className="sm:px-20">
               <p className="text-17px md:text-xl tracking-[-0.16px] text-white">
-                Open source drag & drop email builder using modern ready made components.
+                Open source drag & drop email builder using modern ready made templates.
               </p>
             </div>
           </div>
@@ -36,10 +36,13 @@ const Hero = () => {
                     Start design
                 </Button>
             </Link>
-            <Button color='blue' className='px-14 py-3 rounded-md flex items-center font-medium border border-gray-400 bg-black'>
-                <Squares2X2Icon className='h-6 text-white mr-2'/>
-                Templates
-            </Button>
+            <Link href='templates/'>
+                <Button color='blue' className='px-14 py-3 rounded-md flex items-center font-medium border border-gray-400 bg-black'>
+                  <Squares2X2Icon className='h-6 text-white mr-2'/>
+                  Templates
+                </Button>
+            </Link>
+            
           </div>
         </div>
   )

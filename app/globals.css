@@ -40,3 +40,8 @@
 .hhFmBk .blockbuilder-branding::after{
   content: "";
 }
+
+.text-gray-1 {
+    --tw-text-opacity: 1;
+    color: rgb(178 190 205 / var(--tw-text-opacity));
+}
