@@ -24,8 +24,9 @@ const Hero = () => {
               Drag&Drop email builder.
             </h1>
             <div className="sm:px-20">
-              <p className="text-17px md:text-xl tracking-[-0.16px] text-white">
-                Open source drag & drop email builder using modern ready made templates.
+              <p className="text-17px md:text-xl tracking-[-0.16px] text-white font-thin">
+              Open-source Drag & Drop Email Builder with ready-made Templates. 
+              Perfect for developers and marketers alike.
               </p>
             </div>
           </div>
