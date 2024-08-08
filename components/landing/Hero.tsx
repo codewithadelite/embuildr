@@ -20,7 +20,7 @@ const Hero = () => {
           Drag&Drop email builder.
         </h1>
         <div className="sm:px-20">
-          <p className="text-17px md:text-xl tracking-[-0.16px] text-white">
+          <p className="text-17px md:text-xl tracking-[-0.16px] text-white font-thin">
             Free and Open source drag & drop email builder using modern ready
             made templates.
           </p>
